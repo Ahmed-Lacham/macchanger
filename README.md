@@ -1,2 +1,3 @@
 # maccahnger
-macchanger for linux 
+change mac adress of any interface in linux 
+support only custom mac 
