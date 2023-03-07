@@ -4,7 +4,7 @@ import subprocess
 import argparse
 
 try:
-	ar=argparse.ArgumentParser(description="Mac ch4ng3r by Ahmed Lacham ")
+	ar=argparse.ArgumentParser(description="Mac Changer by Ahmed Lacham ")
 	ar.add_argument("-i","--interface",help="inser you interface")
 	ar.add_argument("-m","--mac",help="inser you mac")
 	args=ar.parse_args()
