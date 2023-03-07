@@ -11,7 +11,7 @@ try:
 
 	a=subprocess.check_output("ifconfig "+args.interface+" | grep ether | awk {'print $2'}",shell=True)
 
-	print("[+] The old mac adress "+str(a.decode('utf-8')))
+	print("[+] The old mac address "+str(a.decode('utf-8')))
 	subprocess.run(["ifconfig", args.interface, "down"])
 
 	# Set the new MAC address
