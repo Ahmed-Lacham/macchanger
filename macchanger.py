@@ -4,7 +4,7 @@ import subprocess
 import argparse
 
 try:
-	ar=argparse.ArgumentParser(description="Mac ch4ng3r")
+	ar=argparse.ArgumentParser(description="Mac ch4ng3r by Ahmed Lacham ")
 	ar.add_argument("-i","--interface",help="inser you interface")
 	ar.add_argument("-m","--mac",help="inser you mac")
 	args=ar.parse_args()
@@ -23,10 +23,10 @@ try:
 
 	print("[+] The new mac address is "+str(b.decode('utf-8')))
 	if  a != b:
-		print("[+] The mac adress has been changed ")
+		print("[+] The mac address has been changed ")
 
 	else:
-		print("[-] No change in mac adress")
+		print("[-] No change in mac address")
 except TypeError:
 	print("Syntax: python3 macchanger.py --help")
 
