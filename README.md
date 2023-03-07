@@ -1,3 +1,3 @@
 # macchanger
-change mac adress of any interface in linux wich supporting only custom mac address
+change mac address of any interface in linux which supporting only custom mac address
 
